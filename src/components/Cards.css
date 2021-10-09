@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+    padding: 15px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.accordion-question {
+    align-self: center;
+    color:  hsl(209, 61%, 16%);
+}
+
+.accordion-answer {
+    width: 90%;
+    padding-top: 15px;
+    color: hsl(210, 22%, 49%);
+}
+
+.flexed-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(219, 216, 216);
+    color: red;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+}
